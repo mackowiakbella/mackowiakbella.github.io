@@ -1,0 +1,46 @@
+h1 {
+    color: rgb(82, 186, 255);
+    font-size:50px;
+    text-align: center;
+
+}
+h2{
+    color: rgb(119, 174, 245);
+}
+h3 {
+    color: rgb(119, 174, 245);
+    font-size: 25px;
+}
+
+h4{
+    color: rgb(119, 174, 245);
+    font-size: 25px;
+}
+body{
+    background-color: rgb(217, 243, 255);
+    font-style: italic;
+}
+
+p{
+    font-size: 20px;
+}
+
+li {
+    font-size: 22px;
+}
+
+p1{
+    font-size: 25px;
+}
+
+p{
+    font-size: 21px;
+}
+
+a{
+    font-size: 20px;
+}
+
+img{
+    width: 1000px;
+}
