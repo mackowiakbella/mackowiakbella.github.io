@@ -1,25 +1,25 @@
 h1 {
-    color: rgb(82, 186, 255);
+    color: rgb(51, 49, 49);
     font-size:50px;
     text-align: center;
 
 }
 h2{
-    color: rgb(119, 174, 245);
+    color: rgb(66, 66, 66);
 }
 h3 {
-    color: rgb(86, 186, 255);
+    color: rgb(255, 59, 59);
     font-size: 25px;
     text-align: center;
 }
 
 h4{
-    color: rgb(119, 174, 245);
+    color: rgb(255, 59, 59);
     font-size: 25px;
     text-align: center;
 }
 body{
-    background-color: rgb(217, 243, 255);
+    background-color: rgb(197, 197, 197);
     font-style: italic;
 }
 
@@ -44,7 +44,10 @@ a{
 }
 
 img{
-    width: 1200px;
-    border: solid rgb(119, 174, 245) 9px;
+    width: 1100px;
+    border: solid rgb(0, 0, 0) 9px;
 }
 
+div{
+    padding: 15px;
+}
