@@ -44,10 +44,41 @@ a{
 }
 
 img{
-    width: 1100px;
+    width: 800px;
     border: solid rgb(0, 0, 0) 9px;
+    display: block;
+    margin: auto;
+    size: 20px;
 }
 
 div{
     padding: 15px;
+}
+
+span{
+    font-weight: bold;
+    color: rgb(19, 19, 19);
+}
+
+span1{
+    font-weight: bold;
+    color: rgb(19, 19, 19);
+}
+
+span2{
+    font-weight: bold;
+    color: rgb(19, 19, 19);
+}
+
+
+#id1{
+    border: solid 2px rgb(146, 148, 148);
+    border-radius: 10px;
+    background-color: rgb(148, 148, 148);
+}
+
+.Curiosidades{
+    font-weight: bold;
+    color: rgb(26, 26, 26);
+    font-size: 25px;
 }
