@@ -17,6 +17,7 @@ h3 {
 h4{
     color: rgb(235, 235, 235);
     font-size: 25px; 
+    text-align: center;
 }
 
 h5{
@@ -31,6 +32,7 @@ body{
 
 p{
     font-size: 50px;
+    text-align: center;
 }
 
 li {
@@ -43,6 +45,7 @@ p1{
 
 p{
     font-size: 21px;
+
 }
 
 a{
