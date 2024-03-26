@@ -45,7 +45,6 @@ p1{
 
 p{
     font-size: 21px;
-
 }
 
 a{
@@ -98,7 +97,7 @@ span2{
 }
 
 #id3{
-    width: 900px;
+    width: 450px;
 }
 
 .Curiosidades{
@@ -109,23 +108,30 @@ span2{
 
 .class2{
     text-align: center;
-
 }
 
 a:hover{
     color: rgb(255, 255, 255);
-
 }
 
-nav a {
-    margin-left: 10px;
-    
-}
 
 nav {
+    margin-left: auto;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+}
+
+nav ul li{
+    margin-left: 20px;
+}
+
+nav ul li:first-child{
+    margin-left: 0;
 }
 
 iframe {
@@ -146,4 +152,5 @@ header {
     font-weight: bold;
     background-color: rgb(146, 146, 146);;
     background-repeat: no-repeat;
+    box-shadow: 0 8px 10px rgba(27, 27, 27, 0.3);
 }
