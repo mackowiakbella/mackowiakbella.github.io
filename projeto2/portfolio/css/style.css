@@ -1,0 +1,32 @@
+:root{
+    --cor1:rgb(255, 106, 193);
+}
+h1{
+    color: var(--cor1);
+    font-family: papyrus;
+    font-size: 50;
+    font-weight: bold;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+}
+main{
+    height: 82vh;
+    width: 100vw;
+}
+
+a:hover {
+    color: rgb(255, 225, 243);
+}
+
+body{
+    background-color: rgb(255, 225, 243);
+    color: rgb(0, 0, 0);
+}
+p{
+    font-size: 20px;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    font-style: 'StencilStd';
+    text-align: center;
+}
