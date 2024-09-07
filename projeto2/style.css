@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+table {
+    border-collapse: collapse;
+    border: 2px solid;
+    width: 20vw;
+    height: 20vh;
+    background-color: rgb(255, 193, 229);
+    box-shadow: 4px 9px 12px rgb(0, 0, 0);
+    min-width: 310px;
+    max-width: 25vw;
+    margin: auto;
+}
+
+tbody {
+    color: rgb(0, 0, 0);
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium';
+}
+
+td {
+    border: 2px solid;
+    padding: 10px;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 225, 243);
+}
+
+h1 {
+    font-size: 5vh;
+    text-align: center;
+    font-family: Kalam;
+}
+
+th {
+    font-family:'Courier New';
+    font-weight: bold;
+    font-size: 20px;
+}
+
+thead {
+    background-color: rgb(240, 139, 181);
+}

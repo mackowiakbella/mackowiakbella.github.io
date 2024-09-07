@@ -1,5 +1,5 @@
 footer {
-    background-color:rgb(255, 149, 223);;
+    background-color:rgb(240, 139, 181);
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 15px 0;
@@ -8,6 +8,7 @@ footer {
     width: 100%;
     border-radius: 10px;
     margin-bottom: 0%;
+    margin-top: 25px;
 }
 
 footer p{
@@ -19,6 +20,10 @@ footer p{
     width: 2vw;
     max-width: 3.5vh;
     min-width: 3vh;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+
 }
 footer{
     width: 100%;
@@ -28,4 +33,16 @@ footer{
     display: flex;
     text-align: center;
     gap: 2%;   
+}
+
+.footer{
+    width: 15px;
+    height: 15px;
+}
+
+.footerLinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1%;
 }
