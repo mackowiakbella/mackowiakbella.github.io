@@ -49,8 +49,9 @@ body{
     color: rgb(0, 0, 0);
     padding: 5px;
 }
-p{
+P{
     font-size: 20px;
+    margin-bottom: 30px;
     margin-left: 20vw;
     margin-right: 20vw;
     font-style: 'StencilStd';
@@ -65,7 +66,7 @@ p{
 }
 
 .volei{
-    width: 550px;
+    width: 320px;
     box-shadow: 4px 9px 12px rgb(0, 0, 0);
 }
 
@@ -97,11 +98,11 @@ span {
     height: 400px;
     box-shadow: 0 8px 10px rgb(240, 139, 181);
     display: block;
-    margin-top: 25px;
+    margin-top: 10px;
 }
 
 #calopsita{
-    max-width: 350px;
+    max-width: 325px;
     min-width: 200px;
     border-radius: 10%;
     display: block;
@@ -111,12 +112,12 @@ span {
 }
 
 #cocacola{
-    max-width: 300px;
+    max-width: 260px;
     min-width: 200px;
     border-radius: 10%;
     display: block;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 5px;
     box-shadow: 4px 9px 12px rgb(0, 0, 0);
 }
 
