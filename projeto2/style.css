@@ -7,7 +7,7 @@ table {
     border: 2px solid;
     width: 20vw;
     height: 20vh;
-    background-color: rgb(255, 193, 229);
+    background-color: rgba(255, 176, 209, 0.664);
     box-shadow: 4px 9px 12px rgb(0, 0, 0);
     min-width: 310px;
     max-width: 25vw;
@@ -15,10 +15,10 @@ table {
 }
 
 tbody {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 131, 224);
     align-items: center;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 163, 202);
     font-weight: bold;
     font-size: 20px;
     font-family:'Franklin Gothic Medium';
@@ -30,12 +30,12 @@ td {
 }
 
 a {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 163, 202);
     text-decoration: none;
 }
 
 a:hover {
-    color: rgb(255, 225, 243);
+    color: rgb(247, 76, 147);
 }
 
 h1 {
@@ -48,8 +48,9 @@ th {
     font-family:'Kanit';
     font-weight: bold;
     font-size: 20px;
+    color: rgba(247, 76, 147);
 }
 
 thead {
-    background-color: rgb(240, 139, 181);
+    background-color: rgb(255, 163, 202);
 }

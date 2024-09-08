@@ -61,13 +61,10 @@ P{
 }
 
 .luck{
-    width: 300px;
-    box-shadow: 4px 9px 12px rgb(0, 0, 0);
-}
-
-.volei{
     width: 320px;
     box-shadow: 4px 9px 12px rgb(0, 0, 0);
+    margin-bottom: 5px;
+    margin-top: 70px;
 }
 
 .titulos{
@@ -77,8 +74,8 @@ P{
 iframe{
     display: block;
     margin: auto;
-    width: 350px;
-    box-shadow: 4px 9px 12px rgb(0, 0, 0);
+    width: 320px;
+    box-shadow: 4px 9px 12px rgb(247, 76, 147);
 }
 
 
@@ -96,9 +93,13 @@ span {
     min-width: 300px;
     margin: auto;
     height: 400px;
-    box-shadow: 0 8px 10px rgb(240, 139, 181);
+
     display: block;
     margin-top: 10px;
+}
+
+.projeto:hover{
+    box-shadow: 0 8px 10px rgb(247, 76, 147);
 }
 
 #calopsita{
