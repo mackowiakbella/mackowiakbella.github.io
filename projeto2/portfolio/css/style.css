@@ -92,6 +92,7 @@ span {
     border: solid var(--cor1) 5px;
     border-radius: 10px;
     max-width: 450px;
+    width: 500px;
     min-width: 300px;
     margin: auto;
     height: 400px;
