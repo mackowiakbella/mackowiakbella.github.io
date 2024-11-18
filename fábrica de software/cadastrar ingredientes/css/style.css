@@ -13,7 +13,7 @@ h1{
     text-align: center;
     padding-top: 30px;
     color: var(--cor4);
-}
+} 
 
 form{
     background: linear-gradient(#FBD1FF 0%, #FFA4EB 100%);
@@ -109,8 +109,73 @@ button a:hover, button:hover{
     margin-right: 20px;
 }
 
-@media (max-width: 393px) {
+@media (max-width: 760px) {
     form {
-        width: 85%;
+        width: 90%;
+        height: auto;
+    }
+
+    .tudo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    form {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .tudo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    button {
+        width: 80%;
+    }
+
+    label, input, .ingredientes, .cores {
+        margin-left: 5%;
+        width: 90%;
+    }
+}
+
+@media (max-width: 325px) {
+    form {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .tudo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    input, .ingredientes, .cores {
+        width: 95%;
+        margin-left: 2.5%;
+    }
+
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    button {
+        width: 90%;
     }
 }
